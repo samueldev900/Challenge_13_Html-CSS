@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (min-width:1000px) {
+*{
+    padding: 0px;
+    margin: 0px
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+main{
+    width: 1150px;
+}
+article{
+    width: 540px;
+}
+article h2{
+    font-size: 27pt;
+    margin-bottom: 30px;
+}
+article p{
+    margin-top: 10px; 
+}
+.h2-fine{
+    font-size: 27pt;
+}
+#calculator{
+    margin-left: 50px;
+}
+
+#supervisor{
+    margin-right: 50px;
+}
+.card-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}   

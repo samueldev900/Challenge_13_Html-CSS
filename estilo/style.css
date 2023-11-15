@@ -24,6 +24,8 @@ body{
     font-size: 15px;
 }
 main{
+    display: grid;
+    place-items: center;
     width: 350px;
 }
 article{
@@ -31,6 +33,7 @@ article{
 }
 .h2-fine{
     font-weight: 200;
+    font-size: 1.6rem;
 }
 .card-component{
     height: 220px;
@@ -41,11 +44,20 @@ article{
     border-top: 5px solid var(--cor1);
     box-shadow: 0px 5px 20px var(--cor5);
     text-align: right;
-    font-size: 14px;
+    font-size: 0.88rem;
 }
 .card-component h2,.card-component p{
     text-align: left;
 }
 img{
     margin-top: 20px;
+}
+#calculator{
+    border-color: var(--cor3);
+}
+#karma{
+    border-color: var(--cor2);
+}
+#team-builder{
+    border-color: var(--cor0);
 }

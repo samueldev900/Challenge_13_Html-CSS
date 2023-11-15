@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root{
+    --cor0:hsl(0, 78%, 62%);
+    --cor1:hsl(180, 62%, 55%);
+    --cor2:hsl(34, 97%, 64%);
+    --cor3:hsl(212, 86%, 64%);
+    --cor4:hsl(234, 12%, 34%);
+    --cor5:hsl(229, 6%, 66%);
+    --cor6:hsl(0, 0%, 98%);
+}
+
+body{
+    display: grid;
+    place-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: var(--cor4);
+    text-align: center;
+    font-size: 15px;
+}
+main{
+    width: 350px;
+}
+article{
+    width: 320px;
+}
+.h2-fine{
+    font-weight: 200;
+}
+.card-component{
+    height: 220px;
+    width: 270px;
+    margin-top: 40px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border-top: 5px solid var(--cor1);
+    box-shadow: 0px 5px 20px var(--cor5);
+    text-align: right;
+    font-size: 14px;
+}
+.card-component h2,.card-component p{
+    text-align: left;
+}
+img{
+    margin-top: 20px;
+}
